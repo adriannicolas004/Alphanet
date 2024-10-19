@@ -1,0 +1,36 @@
+@media(max-width: 750px) {
+
+  .caixa-conteudo {
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 05px;
+
+  }
+
+  body {
+
+    background-image: url(./img/fundo.mobile.jpg);
+    position: absolute;
+    position: relative;
+
+  }
+
+
+
+  .button {
+
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  .texto-inferior {
+
+    padding-bottom: 40px;
+
+  }
+
+
+}

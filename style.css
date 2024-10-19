@@ -1,0 +1,106 @@
+body {
+
+    background-image: url(./img/fundo.jpg);
+    background-size: cover;
+    background-position: top 800px;
+
+}
+
+.front-card {
+
+    transform: translateY(150px);
+    
+}
+
+.principal {
+
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 20px;
+}
+
+.caixa-conteudo {
+
+    background-color: rgb(11, 88, 116);
+    padding: 50px;
+    padding-bottom: 7%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    /* Torna a caixa e seu conteúdo 50% transparente */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    animation-name: cores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: translateY(-40px);
+
+}
+
+@keyframes cores{
+
+            0% {background-color: rgb(82, 82, 166);}
+            25%{ background-color: rgb(90, 94, 206);}
+            50%{ background-color: rgb(107, 102, 177);}
+            75%{ background-color: rgb(94, 136, 203);}
+            100%{ background-color: rgb(91, 145, 177);}
+
+}
+
+.imagem-logo {
+
+    margin-left: 16%;
+}
+
+
+
+.caixa-usuario {
+
+    color: rgb(242, 243, 245);
+    align-items: center;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+.email {
+
+    border-color: black;
+    background-color: rgb(12, 11, 111);
+    color: aliceblue;
+    border: none;
+    width: auto;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.senha {
+    border-color: black;
+    background-color: rgb(12, 11, 111);
+    color: #ffffff;
+    border: none;
+    width: auto;
+    height: 20px;
+    border-radius: 10px;
+
+}
+
+.button{
+
+        background-color: rgb(14, 2, 106);
+        color: #ffffff;
+        width: 100%;
+        padding: 10px;
+        font-size: medium;
+        border-radius: 10px;
+
+}
+
+.texto-inferior{
+
+    font-size: medium;
+    padding-left: 20%;
+    color: #ffffff;
+}
